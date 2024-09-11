@@ -1,0 +1,19 @@
+{
+  "name": "swiggy-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm i"
+  },
+  "author": "Amit",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.20.0",
+    "nodemon": "^3.1.4",
+    "stripe": "^16.10.0",
+    "uuid": "^10.0.0"
+  }
+}
