@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "npm i"
+    "dev": "nodemon index.js",
+    "_comment1":"npm run dev is for development", 
+    "start": "node index.js",
+    "_comment2": "npm run start is for production"
   },
   "author": "Amit",
   "license": "ISC",
@@ -12,8 +14,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.20.0",
-    "nodemon": "^3.1.4",
     "stripe": "^16.10.0",
     "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
